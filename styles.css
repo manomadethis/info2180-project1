@@ -1,4 +1,214 @@
 /* Add your CSS to this file */
+* {
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+header {
+  background-color: #fff;
+  font-size: 18px;
+} 
+  
+
+header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*margin: 20;
+  padding: 5px; */
+}
+
+header h1 {
+  margin: 2% 7%;    
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style-type: none;
+  margin-left: 10%;
+}
+
+header li a {
+  color: #6b7280;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+header li a:hover {
+  color: #5A67D8;
+}
+
+
+.overview-hero {
+  width: 30v;
+}
+
+.overview-hero .container{
+  background-color: #E2E8F0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.overview-hero-image img {
+  width: 30vh;
+  margin-left: 100px;
+}
+
+.learn-about .container {
+  align-items: center;
+  width: 70%;
+  justify-items: center;
+}
+
+.learn-about .container h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color:#48BB78
+}
+
+.learn-about h3 {
+  font-size: 21px;
+  color: #48BB78
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 1vw;
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 5px;
+  border: solid #E2E8F0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  display: flex'
+}
+
+.card img {
+  height: 27vh;
+}
+
+.testing .container {
+  background-color: #4A5568;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20vh 4vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.testing h2 {
+  width: 40vw;
+  margin-left:10vw;
+}
+
+.testing p {
+  width:40vw;
+  margin-left:10vw;
+}
+
+.cta {
+  background-color: #48BB78;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  padding: 13px 13px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.recent-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.recent-stories__story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.recent-stories__story img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.recent-stories__story h3 {
+  font-size: 18px;
+  margin-left: 1rem;
+}
+
+.recent-stories__story p {
+  font-size: 18px;
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.recent-stories__story a {
+  color: #5A67D8;
+  text-decoration: none;
+}
+
+.newsletter {
+  background-color: #48BB78;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.newsletter__input {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.newsletter__button {
+  background-color: #5A67D8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #4A5568;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
 body {
     margin: 0;
     font-size: 16px;
